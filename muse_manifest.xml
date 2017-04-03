@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1491183756053">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1491188184060">
   <folder name="css">
     <file name="site_global.css" crc="32744734"/>
-    <file name="master_main-template.css" crc="4247587165" ref="index:benchmark"/>
-    <file name="index.css" crc="4218017021" ref="index"/>
-    <file name="benchmark.css" crc="72015831" ref="benchmark"/>
+    <file name="master_main-template.css" crc="4244636282" ref="index:benchmark"/>
+    <file name="index.css" crc="444783026" ref="index"/>
+    <file name="benchmark.css" crc="3925290505" ref="benchmark"/>
   </folder>
   <folder name="assets">
     <file name="benchmark-perfomaance-8.0.exe" crc="3831531184" seo="true" mt="1491173817000"/>
@@ -18,7 +18,6 @@
     <file name="require.js" crc="4234670167" ref="index:benchmark"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="330352396" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:benchmark"/>
     <file name="u1469.png" crc="243310402" ref="index:benchmark"/>
     <file name="u1469-r.png" crc="184725460" ref="index:benchmark"/>
@@ -48,7 +47,8 @@
     <file name="firewatch-wallpaper-desktop-2560x1440-green.jpg" crc="4163723872" ref="benchmark">
       <caption webpage="benchmark" alt=""/>
     </file>
+    <file name="main-template-favicon.ico" crc="3830591955" ref="index"/>
   </folder>
-  <file name="index.html" crc="3807079096" seo="true" mt="1491182548221" redirect="true"/>
-  <file name="benchmark.html" crc="4109026739" seo="true" mt="1491183706787" redirect="true"/>
+  <file name="index.html" crc="189029997" seo="true" mt="1491188148050" redirect="true"/>
+  <file name="benchmark.html" crc="464216658" seo="true" mt="1491188148050" redirect="true"/>
 </manifest>
