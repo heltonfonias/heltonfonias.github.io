@@ -1,51 +1,54 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1488639734343">
-  <folder name="assets">
-    <file name="8---z44tndc.jpg" crc="482099658" seo="true" mt="1488568282000"/>
-    <file name="3---a0v2ig5.jpg" crc="4246134665" seo="true" mt="1488568280000"/>
-    <file name="gta--online---bikers-dlc-(sons-of-anarchy--paleto-bay™)---imgur.zip" crc="1135856" seo="true" mt="1488557491000"/>
-  </folder>
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1491183756053">
   <folder name="css">
     <file name="site_global.css" crc="32744734"/>
-    <file name="index.css" crc="3797416284" ref="index"/>
-    <file name="screenshots.css" crc="430753140" ref="screenshots"/>
-    <file name="about.css" crc="31477689" ref="about"/>
+    <file name="master_main-template.css" crc="4247587165" ref="index:benchmark"/>
+    <file name="index.css" crc="4218017021" ref="index"/>
+    <file name="benchmark.css" crc="72015831" ref="benchmark"/>
+  </folder>
+  <folder name="assets">
+    <file name="benchmark-perfomaance-8.0.exe" crc="3831531184" seo="true" mt="1491173817000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:screenshots:about"/>
-    <file name="museutils.js" crc="4232573551" ref="index:screenshots:about"/>
-    <file name="whatinput.js" crc="86476730" ref="index:screenshots:about"/>
-    <file name="museconfig.js" crc="4152223963" ref="index:screenshots:about"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index:screenshots"/>
-    <file name="require.js" crc="4234670167" ref="index:screenshots:about"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="about:index"/>
-    <file name="jquery.scrolleffects.js" crc="146279342" ref="about:index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:benchmark"/>
+    <file name="museutils.js" crc="4232573551" ref="index:benchmark"/>
+    <file name="whatinput.js" crc="86476730" ref="index:benchmark"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:benchmark"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:benchmark"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:benchmark"/>
+    <file name="require.js" crc="4234670167" ref="index:benchmark"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index:screenshots:about"/>
-    <file name="66rlika.png" crc="4197023289" seo="true" ref="screenshots">
-      <caption webpage="screenshots" alt=""/>
-    </file>
-    <file name="home-favicon.ico" crc="3830591955" ref="index"/>
-    <file name="background2-crop-u1143.jpg" crc="455461783" seo="true" ref="screenshots">
-      <caption webpage="screenshots" alt=""/>
-    </file>
-    <file name="screenshots-favicon.ico" crc="3830591955" ref="screenshots"/>
-    <file name="u1149.png" crc="4224306476" ref="screenshots"/>
-    <file name="u1149-r.png" crc="4060937730" ref="screenshots"/>
-    <file name="about-favicon.ico" crc="3830591955" ref="about"/>
-    <file name="u1458.png" crc="4224306476" ref="about"/>
-    <file name="u1458-r.png" crc="4060937730" ref="about"/>
-    <file name="atual.jpg" crc="337558359" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="firewatch-wallpaper-desktop-2560x1440-green.jpg" crc="4123850407" ref="about:index">
+    <file name="favicon.ico" crc="330352396" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:benchmark"/>
+    <file name="u1469.png" crc="243310402" ref="index:benchmark"/>
+    <file name="u1469-r.png" crc="184725460" ref="index:benchmark"/>
+    <file name="u1469-m.png" crc="243310402" ref="index:benchmark"/>
+    <file name="h.png" crc="3786115636" seo="true" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="about" alt=""/>
     </file>
-    <file name="u1770.png" crc="4224306476" ref="index"/>
-    <file name="u1770-r.png" crc="4060937730" ref="index"/>
+    <file name="firewatch-wallpaper-desktop-2560x1440-green-min.jpg" crc="186844279" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1635-4.png" crc="431323890" ref="benchmark"/>
+    <file name="u1651-4.png" crc="128752191" ref="benchmark"/>
+    <file name="u1666-4.png" crc="189377699" ref="benchmark"/>
+    <file name="windows 7 virtual machine.jpg" crc="3775773908" seo="true" ref="benchmark">
+      <caption webpage="benchmark" alt=""/>
+    </file>
+    <file name="windows 10 virtual machine.jpg" crc="3828514265" seo="true" ref="benchmark">
+      <caption webpage="benchmark" alt=""/>
+    </file>
+    <file name="u1676-4.png" crc="4248044394" ref="benchmark"/>
+    <file name="windows 10 real pc.jpg" crc="4047239762" seo="true" ref="benchmark">
+      <caption webpage="benchmark" alt=""/>
+    </file>
+    <file name="cloud slide.png" crc="3946717483" ref="benchmark">
+      <caption webpage="benchmark" alt="DOWNLOAD TOOL"/>
+    </file>
+    <file name="firewatch-wallpaper-desktop-2560x1440-green.jpg" crc="4163723872" ref="benchmark">
+      <caption webpage="benchmark" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3937607081" seo="true" mt="1488639606929" redirect="true"/>
-  <file name="screenshots.html" crc="267884704" seo="true" mt="1488639442032" redirect="true"/>
-  <file name="about.html" crc="3919310599" seo="true" mt="1488639697437" redirect="true"/>
+  <file name="index.html" crc="3807079096" seo="true" mt="1491182548221" redirect="true"/>
+  <file name="benchmark.html" crc="4109026739" seo="true" mt="1491183706787" redirect="true"/>
 </manifest>
