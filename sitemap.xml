@@ -2,31 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://heltonfonias.github.io/index.html</loc>
-    <lastmod>2017-04-02</lastmod>
+    <lastmod>2017-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://heltonfonias.github.io/screenshots.html</loc>
+    <lastmod>2017-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://heltonfonias.github.io/images/h.png</image:loc>
+      <image:loc>http://heltonfonias.github.io/images/66rlika.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://heltonfonias.github.io/images/background2-crop-u1143.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://heltonfonias.github.io/benchmark.html</loc>
-    <lastmod>2017-04-02</lastmod>
+    <loc>http://heltonfonias.github.io/about.html</loc>
+    <lastmod>2017-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://heltonfonias.github.io/images/windows%207%20virtual%20machine.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://heltonfonias.github.io/images/windows%2010%20virtual%20machine.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://heltonfonias.github.io/images/windows%2010%20real%20pc.jpg</image:loc>
+      <image:loc>http://heltonfonias.github.io/images/atual.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://heltonfonias.github.io/assets/benchmark-perfomaance-8.0.exe</loc>
-    <lastmod>2017-04-02</lastmod>
+    <loc>http://heltonfonias.github.io/assets/gta--online---bikers-dlc-(sons-of-anarchy--paleto-bay%E2%84%A2)---imgur.zip</loc>
+    <lastmod>2017-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://heltonfonias.github.io/assets/3---a0v2ig5.jpg</loc>
+    <lastmod>2017-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://heltonfonias.github.io/assets/8---z44tndc.jpg</loc>
+    <lastmod>2017-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
