@@ -1,25 +1,38 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1515724410708">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1515730873458">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="5794733" ref="index"/>
-    <file name="index.css" crc="247054979" ref="index"/>
+    <file name="master_a-master.css" crc="5794733" ref="index:social"/>
+    <file name="index.css" crc="513449864" ref="index"/>
+    <file name="social.css" crc="399694936" ref="social"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="3803043152" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4153641093" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index"/>
-    <file name="require.js" crc="4157109226" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:social"/>
+    <file name="museutils.js" crc="3803043152" ref="index:social"/>
+    <file name="whatinput.js" crc="86476730" ref="index:social"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:social"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:social"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:social"/>
+    <file name="require.js" crc="4157109226" ref="index:social"/>
   </folder>
   <folder name="images">
-    <file name="fonias logo white cropped.png" crc="221074013" seo="true" ref="index">
+    <file name="fonias logo white cropped.png" crc="221074013" seo="true" ref="index:social">
+      <caption webpage="index" alt=""/>
+      <caption webpage="social" alt=""/>
+    </file>
+    <file name="dtzglxd-min.jpg" crc="4091971346" ref="index:social">
+      <caption webpage="index" alt=""/>
+      <caption webpage="social" alt=""/>
+    </file>
+    <file name="u242-4.png" crc="4214337935" ref="index"/>
+    <file name="u239-4.png" crc="200926952" ref="index"/>
+    <file name="687474703a2f2f692e696d6775722e636f6d2f74796f764963652e706e67.png" crc="3872423318" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="dtzglxd-min.jpg" crc="4091971346" ref="index">
+    <file name="fonias logo black cropped.png" crc="3954704314" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="u347-4.png" crc="218243879" ref="social"/>
   </folder>
-  <file name="index.html" crc="4055836648" seo="true" mt="1515724283388" redirect="true"/>
+  <file name="index.html" crc="3797155629" seo="true" mt="1515730785454" redirect="true"/>
+  <file name="social.html" crc="32933264" seo="true" mt="1515730785454" redirect="true"/>
 </manifest>
