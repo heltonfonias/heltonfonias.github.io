@@ -2,32 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://heltonfonias.github.io/index.html</loc>
-    <lastmod>2017-04-02</lastmod>
+    <lastmod>2018-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://heltonfonias.github.io/images/h.png</image:loc>
+      <image:loc>http://heltonfonias.github.io/images/fonias%20logo%20white%20cropped.png</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://heltonfonias.github.io/benchmark.html</loc>
-    <lastmod>2017-04-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://heltonfonias.github.io/images/windows%207%20virtual%20machine.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://heltonfonias.github.io/images/windows%2010%20virtual%20machine.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://heltonfonias.github.io/images/windows%2010%20real%20pc.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://heltonfonias.github.io/assets/benchmark-perfomaance-8.0.exe</loc>
-    <lastmod>2017-04-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
