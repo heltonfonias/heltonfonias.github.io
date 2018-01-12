@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1515730873458">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1515731158679">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="5794733" ref="index:social"/>
@@ -33,6 +33,6 @@
     </file>
     <file name="u347-4.png" crc="218243879" ref="social"/>
   </folder>
-  <file name="index.html" crc="3797155629" seo="true" mt="1515730785454" redirect="true"/>
-  <file name="social.html" crc="32933264" seo="true" mt="1515730785454" redirect="true"/>
+  <file name="index.html" crc="3797155629" seo="true" mt="1515731152035" redirect="true"/>
+  <file name="social.html" crc="32933264" seo="true" mt="1515731152035" redirect="true"/>
 </manifest>
