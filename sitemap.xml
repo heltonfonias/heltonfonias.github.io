@@ -11,12 +11,18 @@
     <image:image>
       <image:loc>http://heltonfonias.github.io/images/687474703a2f2f692e696d6775722e636f6d2f74796f764963652e706e67.png</image:loc>
     </image:image>
-    <image:image>
-      <image:loc>http://heltonfonias.github.io/images/fonias%20logo%20black%20cropped.png</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>http://heltonfonias.github.io/social.html</loc>
+    <lastmod>2018-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://heltonfonias.github.io/images/fonias%20logo%20white%20cropped.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://heltonfonias.github.io/untitled-3.html</loc>
     <lastmod>2018-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
