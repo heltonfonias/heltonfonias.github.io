@@ -1,40 +1,51 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1526195334546">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1531628486738">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="70761873" ref="twitch:index:social"/>
-    <file name="twitch.css" crc="237980346" ref="twitch"/>
-    <file name="index.css" crc="3859219635" ref="index"/>
-    <file name="social.css" crc="3811795332" ref="social"/>
+    <file name="social.css" crc="236051510" ref="social"/>
+    <file name="index.css" crc="187266869" ref="index"/>
+    <file name="twitch.css" crc="3874737767" ref="twitch"/>
+    <file name="contact.css" crc="3860707629" ref="contact"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:social:twitch"/>
-    <file name="museutils.js" crc="340535759" ref="index:social:twitch"/>
-    <file name="whatinput.js" crc="86476730" ref="index:social:twitch"/>
-    <file name="museconfig.js" crc="310584261" ref="index:social:twitch"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:social:twitch"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:social:twitch"/>
-    <file name="require.js" crc="7928878" ref="index:social:twitch"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contact:social:twitch"/>
+    <file name="museutils.js" crc="340535759" ref="index:contact:social:twitch"/>
+    <file name="whatinput.js" crc="86476730" ref="index:contact:social:twitch"/>
+    <file name="museconfig.js" crc="310584261" ref="index:contact:social:twitch"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:contact:social:twitch"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:contact:social:twitch"/>
+    <file name="require.js" crc="7928878" ref="index:contact:social:twitch"/>
+    <file name="webpro.js" crc="4059564322" ref="contact"/>
+    <file name="form_check.php" crc="4020933626" ref="contact"/>
+    <file name="form_throttle.php" crc="4259590256" ref="contact"/>
+    <file name="form_process.php" crc="37464564" ref="contact"/>
+    <file name="form-u752.php" crc="437572960" ref="contact"/>
   </folder>
   <folder name="images">
-    <file name="fonias logo white cropped.png" crc="430429241" seo="true" ref="index:social:twitch">
+    <file name="fonias logo white cropped.png" crc="257355260" seo="true" ref="index:contact:social:twitch">
       <caption webpage="index" alt=""/>
-      <caption webpage="social" alt=""/>
-      <caption webpage="social" alt=""/>
-      <caption webpage="twitch" alt=""/>
-      <caption webpage="twitch" alt=""/>
-    </file>
-    <file name="u242-4.png" crc="4215251221" ref="index"/>
-    <file name="u239-13.png" crc="291914584" ref="index"/>
-    <file name="wallpaper.jpg" crc="4133862007" ref="index:social:twitch">
-      <caption webpage="index" alt=""/>
+      <caption webpage="contact" alt=""/>
       <caption webpage="social" alt=""/>
       <caption webpage="twitch" alt=""/>
     </file>
-    <file name="u347-11.png" crc="426447456" ref="social"/>
-    <file name="u454-4.png" crc="4091286948" ref="social"/>
-    <file name="u472-4.png" crc="4091286948" ref="twitch"/>
+    <file name="u312-10.png" crc="4279685343" ref="index"/>
+    <file name="u336-10.png" crc="4021895321" ref="index"/>
+    <file name="if_brazil_flat_91992.png" crc="4121414595" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="if_united states of america(usa)_16036.png" crc="214028967" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="wallpaper.jpg" crc="4133862007" ref="index:contact:social:twitch">
+      <caption webpage="index" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="social" alt=""/>
+      <caption webpage="twitch" alt=""/>
+    </file>
+    <file name="u803-4.png" crc="4018152126" ref="contact"/>
+    <file name="u1028-4.png" crc="51358863" ref="social"/>
   </folder>
-  <file name="index.html" crc="3773160160" seo="true" mt="1526195289745" redirect="true"/>
-  <file name="social.html" crc="3962271678" seo="true" mt="1526195289745" redirect="true"/>
-  <file name="twitch.html" crc="3934694393" seo="true" mt="1526195289745" redirect="true"/>
+  <file name="index.html" crc="4088676768" seo="true" mt="1531628395840" redirect="true"/>
+  <file name="contact.html" crc="3799378821" seo="true" mt="1531628422570" redirect="true"/>
+  <file name="social.html" crc="224349036" seo="true" mt="1531627398052" redirect="true"/>
+  <file name="twitch.html" crc="253371490" seo="true" mt="1531627143791" redirect="true"/>
 </manifest>

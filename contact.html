@@ -11,15 +11,15 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "twitch.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "webpro.js", "contact.css"], "outOfDate":[]};
 </script>
   
-  <title>twitch</title>
+  <title>contact</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/twitch.css?crc=3874737767" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/contact.css?crc=3860707629" id="pagesheet"/>
   <!-- JS includes -->
-  <script src="https://use.typekit.net/ik/oELJH_BEj32frrewPAdBxmqG2dFuBKcfyoCLvXqNXztfeTtgfw0336jPHQIDFRS3F2SuWD8cFDJoZ2gRFR9kF2sKjR4yZcIkwQ93Zc9X52yyjDjheqG7Ocy8dYszdcZzdc8ySko1-WsGiAJ0-AvC-emCieN0ZcN0-ABDOciTieyujKoTdkUaiaS0-emCieN0ZcN0-ABDOciTieyujKoTdkJYSeN3Se80SkGHfJk8MyMMeMb6MqGIQWmDZZMgUopnh69.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/WTvfJIs7J8sLQ95XUtNTUQdY4qTAAK8V7EU1tx4_BTGfeTtgfw0336jPHQIDFRS3F2SuWD8cFDJoZ2gRFR9kF2sKjR4yZcIkwQ93Zc9X52yyjDjheqG7Ocy8dYszdcZzdc8ySko1-WsGiAJ0-AvC-emCieN0ZcN0-ABDOciTieyujKoTdkUaiaS0-emCieN0ZcN0-ABDOciTieyujKoTdkJYSeN3Se80SkGHfJk8MyMMeMb6MqGIQWmDZZMgUZpnh69.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -33,168 +33,189 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 *,
 *:after,
 *::before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.u1050 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
-.u1050 a:hover, nav a:focus { outline: none; }
+.u822 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
+.u822 a:hover, nav a:focus { outline: none; }
 
-.u1050 .cl-effect-10 { position: relative; z-index: 1; }
-.u1050 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
-.u1050 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
-.u1050 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
-.u1050 .cl-effect-10 a:hover span, .u1050 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
-.u1050 .cl-effect-10 a:hover::before, .u1050 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
+.u822 .cl-effect-10 { position: relative; z-index: 1; }
+.u822 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
+.u822 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
+.u822 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
+.u822 .cl-effect-10 a:hover span, .u822 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
+.u822 .cl-effect-10 a:hover::before, .u822 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
 </style>
 
 <style>
 *,
 *:after,
 *::before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.u1048 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
-.u1048 a:hover, nav a:focus { outline: none; }
+.u823 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
+.u823 a:hover, nav a:focus { outline: none; }
 
-.u1048 .cl-effect-10 { position: relative; z-index: 1; }
-.u1048 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
-.u1048 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
-.u1048 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
-.u1048 .cl-effect-10 a:hover span, .u1048 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
-.u1048 .cl-effect-10 a:hover::before, .u1048 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
+.u823 .cl-effect-10 { position: relative; z-index: 1; }
+.u823 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
+.u823 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
+.u823 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
+.u823 .cl-effect-10 a:hover span, .u823 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
+.u823 .cl-effect-10 a:hover::before, .u823 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
 </style>
 
 <style>
 *,
 *:after,
 *::before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.u1046 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
-.u1046 a:hover, nav a:focus { outline: none; }
+.u824 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
+.u824 a:hover, nav a:focus { outline: none; }
 
-.u1046 .cl-effect-10 { position: relative; z-index: 1; }
-.u1046 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
-.u1046 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
-.u1046 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
-.u1046 .cl-effect-10 a:hover span, .u1046 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
-.u1046 .cl-effect-10 a:hover::before, .u1046 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
+.u824 .cl-effect-10 { position: relative; z-index: 1; }
+.u824 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
+.u824 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
+.u824 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
+.u824 .cl-effect-10 a:hover span, .u824 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
+.u824 .cl-effect-10 a:hover::before, .u824 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
 </style>
 
 <style>
 *,
 *:after,
 *::before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.u1060 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
-.u1060 a:hover, nav a:focus { outline: none; }
+.u825 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
+.u825 a:hover, nav a:focus { outline: none; }
 
-.u1060 .cl-effect-10 { position: relative; z-index: 1; }
-.u1060 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
-.u1060 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
-.u1060 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
-.u1060 .cl-effect-10 a:hover span, .u1060 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
-.u1060 .cl-effect-10 a:hover::before, .u1060 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
+.u825 .cl-effect-10 { position: relative; z-index: 1; }
+.u825 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
+.u825 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
+.u825 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
+.u825 .cl-effect-10 a:hover span, .u825 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
+.u825 .cl-effect-10 a:hover::before, .u825 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
 </style>
 
 <style>
 *,
 *:after,
 *::before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.u1059 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
-.u1059 a:hover, nav a:focus { outline: none; }
+.u842 a { position: relative; display: inline-block; outline: none; color: #000000; text-decoration: none; letter-spacing: 1px;}
+.u842 a:hover, nav a:focus { outline: none; }
 
-.u1059 .cl-effect-10 { position: relative; z-index: 1; }
-.u1059 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
-.u1059 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
-.u1059 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
-.u1059 .cl-effect-10 a:hover span, .u1059 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
-.u1059 .cl-effect-10 a:hover::before, .u1059 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
+.u842 .cl-effect-10 { position: relative; z-index: 1; }
+.u842 .cl-effect-10 a { overflow: hidden; margin: 0 15px; }
+.u842 .cl-effect-10 a span { display: block; padding: 10px 20px; background: #FFFFFF; -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; }
+.u842 .cl-effect-10 a::before { position: absolute; top: 0; left: 0; z-index: -1; padding: 10px 20px; width: 100%; height: 100%; background: #000000; color: #FFFFFF; content: attr(data-hover); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; -webkit-transform: translateX(-25%); }
+.u842 .cl-effect-10 a:hover span, .u842 .cl-effect-10 a:focus span { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); transform: translateX(100%); }
+.u842 .cl-effect-10 a:hover::before, .u842 .cl-effect-10 a:focus::before { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); transform: translateX(0%); }
 </style>
 
  </head>
  <body class="museBGSize">
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu1054"><!-- group -->
-    <div class="browser_width" id="u1054-bw">
-     <div class="size_browser_width" id="u1054"><!-- custom html -->
+   <div class="clearfix grpelem" id="pu1143"><!-- group -->
+    <div class="browser_width" id="u1143-bw">
+     <div class="size_browser_width" id="u1143"><!-- custom html -->
       
 <canvas id="background-canvas"></canvas>
 
      </div>
     </div>
-    <div class="browser_width" id="u1053-bw">
-     <div class="rgba-background" id="u1053"><!-- simple frame --></div>
-    </div>
-    <div id="u1049-7-wrapper">
-     <div class="clearfix" id="u1049-7"><!-- content -->
-      <p>Website created by Fonias, used as a visit card!</p>
-      <p>&nbsp;</p>
-      <p>All information contained, is totally official and verified by Helton</p>
+    <div id="u225-wrapper">
+     <div class="clip_frame" id="u225"><!-- image -->
+      <img class="block" id="u225_img" src="images/fonias%20logo%20white%20cropped.png?crc=257355260" alt="" data-heightwidthratio="0.2787456445993031" data-image-width="287" data-image-height="80"/>
      </div>
     </div>
-    <div class="size_fixed" id="u1050" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
+    <div class="size_fixed" id="u822" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
      
 <!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u1050">
+<div class="u822">
 <nav class="cl-effect-10">
-<a href="contact.html" data-hover="CONTACT"><span>CONTACT</span></a>
+<a href="index.html" data-hover="HOME"><span>HOME</span></a>
 </nav>
 </div>
 
     </div>
-    <div class="size_fixed" id="u1048" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
+    <div class="size_fixed" id="u823" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
      
 <!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u1048">
+<div class="u823">
 <nav class="cl-effect-10">
 <a href="http://youtube.com/heltonfonias" data-hover="YOUTUBE"><span>YOUTUBE</span></a>
 </nav>
 </div>
 
     </div>
-    <div class="size_fixed" id="u1046" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
+    <div class="size_fixed" id="u824" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
      
 <!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u1046">
+<div class="u824">
 <nav class="cl-effect-10">
 <a href="https://discord.gg/g2HmZEK" data-hover="DISCORD"><span>DISCORD</span></a>
 </nav>
 </div>
 
     </div>
-    <div class="size_fixed" id="u1060" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
+    <div class="size_fixed" id="u825" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
      
 <!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u1060">
+<div class="u825">
 <nav class="cl-effect-10">
 <a href="social.html" data-hover="SOCIAL NETWORKS"><span>SOCIAL NETWORKS</span></a>
 </nav>
 </div>
 
     </div>
-    <div class="size_fixed" id="u1059" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
+    <div class="size_fixed" id="u842" data-sizePolicy="fixed" data-pintopage="topleft"><!-- custom html -->
      
 <!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u1059">
+<div class="u842">
 <nav class="cl-effect-10">
-<a href="twitch" data-hover="TWITCH"><span>TWITCH</span></a>
+<a href="twitch.html" data-hover="TWITCH"><span>TWITCH</span></a>
 </nav>
 </div>
 
     </div>
-   </div>
-   <div class="clearfix grpelem" id="pu1051"><!-- group -->
-    <div class="browser_width grpelem" id="u1051-bw">
-     <div class="gradient" id="u1051"><!-- group -->
-      <div class="clearfix" id="u1051_align_to_page">
-       <div class="clip_frame grpelem" id="u1056"><!-- image -->
-        <img class="block" id="u1056_img" src="images/fonias%20logo%20white%20cropped.png?crc=257355260" alt="" data-heightwidthratio="0.2787456445993031" data-image-width="287" data-image-height="80"/>
-       </div>
-       <div class="grpelem" id="u1113"><!-- custom html -->
-        <iframe src="https://www.twitch.tv/embed/heltonfonias/chat" frameborder="0" scrolling="no" height="378" width="350"></iframe>
-       </div>
-      </div>
+    <div class="browser_width" id="u847-bw">
+     <div class="rgba-background" id="u847"><!-- simple frame --></div>
+    </div>
+    <div id="u848-7-wrapper">
+     <div class="clearfix" id="u848-7"><!-- content -->
+      <p>Website created by Fonias, used as a visit card!</p>
+      <p>&nbsp;</p>
+      <p>All information contained, is totally official and verified by Helton</p>
      </div>
     </div>
-    <div class="grpelem" id="u1109"><!-- custom html -->
-     <iframe src="https://player.twitch.tv/?channel=heltonfonias" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/heltonfonias?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a>
-    </div>
    </div>
-   <div class="verticalspacer" data-offset-top="1192" data-content-above-spacer="1262" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="pu221"><!-- group -->
+    <div class="gradient grpelem" id="u221"><!-- simple frame -->
+     <div class="fluid_height_spacer"></div>
+    </div>
+    <form class="form-grp clearfix grpelem" id="widgetu752" method="post" enctype="multipart/form-data" action="scripts/form-u752.php" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+     <div class="fld-grp clearfix colelem" id="widgetu755" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv borderbox clearfix grpelem" id="u757-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu755_input" name="custom_U755" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu755_prompt" for="widgetu755_input"><span class="actAsPara">Enter Name</span></label></span>
+     </div>
+     <div class="fld-grp clearfix colelem" id="widgetu759" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv borderbox clearfix grpelem" id="u762-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu759_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu759_prompt" for="widgetu759_input"><span class="actAsPara">Enter Email</span></label></span>
+     </div>
+     <div class="fld-grp clearfix colelem" id="widgetu764" data-required="false" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+      <span class="fld-textarea actAsDiv borderbox clearfix grpelem" id="u767-4"><!-- content --><textarea class="wrapped-input" id="widgetu764_input" name="custom_U764" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu764_prompt" for="widgetu764_input"><span class="actAsPara">Enter Your Message</span></label></span>
+     </div>
+     <button class="submit-btn NoWrap clearfix colelem" id="u763-4" type="submit" value="send message" tabindex="4"><!-- content -->
+      <div style="margin-top:-36px;height:36px;">
+       <p>send message</p>
+      </div>
+     </button>
+     <div class="clearfix colelem" id="pu754-4"><!-- group -->
+      <div class="clearfix grpelem" id="u754-4"><!-- content -->
+       <p>Submitting Form...</p>
+      </div>
+      <div class="clearfix grpelem" id="u753-4"><!-- content -->
+       <p>The server encountered an error.</p>
+      </div>
+      <div class="clearfix grpelem" id="u768-4"><!-- content -->
+       <p>Form received.</p>
+      </div>
+     </div>
+    </form>
+    <img class="grpelem" id="u803-4" alt="entre em contato comigo" src="images/u803-4.png?crc=4018152126" data-image-width="352"/><!-- rasterized frame -->
+   </div>
+   <div class="verticalspacer" data-offset-top="981" data-content-above-spacer="1043" data-content-below-spacer="62" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -214,13 +235,12 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","jquery.musepolyfill.bgsize","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#widgetu752', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu752 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */

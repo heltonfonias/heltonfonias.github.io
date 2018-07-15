@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://heltonfonias.github.io/index.html</loc>
-    <lastmod>2018-05-13</lastmod>
+    <lastmod>2018-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://heltonfonias.github.io/images/fonias%20logo%20white%20cropped.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://heltonfonias.github.io/images/if_brazil_flat_91992.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://heltonfonias.github.io/images/if_united%20states%20of%20america(usa)_16036.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://heltonfonias.github.io/contact.html</loc>
+    <lastmod>2018-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -11,7 +26,7 @@
   </url>
   <url>
     <loc>http://heltonfonias.github.io/social.html</loc>
-    <lastmod>2018-05-13</lastmod>
+    <lastmod>2018-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -20,7 +35,7 @@
   </url>
   <url>
     <loc>http://heltonfonias.github.io/twitch.html</loc>
-    <lastmod>2018-05-13</lastmod>
+    <lastmod>2018-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
