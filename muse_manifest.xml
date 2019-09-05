@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1567661481573">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1567661626947">
   <folder name="css">
     <file name="site_global.css" crc="3895021738"/>
-    <file name="index.css" crc="4254186770" ref="index"/>
+    <file name="index.css" crc="489768201" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -15,13 +15,13 @@
   <folder name="images">
     <file name="fonias logo white cropped.png" crc="4062940343" seo="true" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="twitch" alt=""/>
       <caption webpage="social" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="twitch" alt=""/>
     </file>
     <file name="121407.jpg" crc="4241474599" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3899662510" seo="true" mt="1567661476182" redirect="true"/>
+  <file name="index.html" crc="399308640" seo="true" mt="1567661623133" redirect="true"/>
 </manifest>
