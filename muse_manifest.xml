@@ -1,31 +1,35 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1568528097465">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="heltonfonias.github.io" resolutions="1x" timestamp="1568576834684">
   <folder name="css">
     <file name="site_global.css" crc="3895021738"/>
-    <file name="index.css" crc="3921320599" ref="index"/>
-    <file name="master_a-master.css" crc="4263126661" ref="untitled-3:index"/>
-    <file name="untitled-3.css" crc="516506290" ref="untitled-3"/>
+    <file name="index.css" crc="47925340" ref="index"/>
+    <file name="master_a-master.css" crc="4263126661" ref="index"/>
+    <file name="master_white.css" crc="4239733995" ref="portifolio"/>
+    <file name="portifolio.css" crc="42344664" ref="portifolio"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:untitled-3"/>
-    <file name="museutils.js" crc="340535759" ref="index:untitled-3"/>
-    <file name="whatinput.js" crc="86476730" ref="index:untitled-3"/>
-    <file name="museconfig.js" crc="310584261" ref="index:untitled-3"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:portifolio"/>
+    <file name="museutils.js" crc="340535759" ref="index:portifolio"/>
+    <file name="whatinput.js" crc="86476730" ref="index:portifolio"/>
+    <file name="museconfig.js" crc="310584261" ref="index:portifolio"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:untitled-3"/>
-    <file name="require.js" crc="7928878" ref="index:untitled-3"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:portifolio"/>
+    <file name="require.js" crc="7928878" ref="index:portifolio"/>
   </folder>
   <folder name="images">
     <file name="121407.jpg" crc="4241474599" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="fonias logo black.png" crc="323897099" seo="true" ref="index:untitled-3">
+    <file name="fonias logo black.png" crc="323897099" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="untitled-3" alt=""/>
     </file>
     <file name="photo_2019-05-28_18-37-56.jpg" crc="281952398" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="website.png" crc="530674111" seo="true" ref="portifolio">
+      <caption webpage="portifolio" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4015565632" seo="true" mt="1568528072062" redirect="true"/>
-  <file name="untitled-3.html" crc="46976966" seo="true" mt="1568526578128" redirect="true"/>
+  <file name="index.html" crc="4248067191" seo="true" mt="1568576821136" redirect="true"/>
+  <file name="portifolio.html" crc="4085993866" seo="true" mt="1568576765224" redirect="true"/>
 </manifest>
