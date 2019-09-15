@@ -2,11 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://heltonfonias.github.io/index.html</loc>
-    <lastmod>2019-09-05</lastmod>
+    <lastmod>2019-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://heltonfonias.github.io/images/fonias%20logo%20white%20cropped.png</image:loc>
+      <image:loc>http://heltonfonias.github.io/images/fonias%20logo%20black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://heltonfonias.github.io/images/photo_2019-05-28_18-37-56.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://heltonfonias.github.io/untitled-3.html</loc>
+    <lastmod>2019-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://heltonfonias.github.io/images/fonias%20logo%20black.png</image:loc>
     </image:image>
   </url>
 </urlset>
